@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",//origem dos arquivos
+        "target": "ES6",// versão js
+        "noEmitOnError": true,//apenas gera arquivos se não houverem erros
+        "noImplicitAny":true
+    },
+    "include": [
+        "app/**/*"//destino de conversão   
+    ]
+}
